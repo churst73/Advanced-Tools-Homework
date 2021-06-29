@@ -115,3 +115,24 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+  .contact-me {
+    font-size: 35px;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .portfolio {
+    text-align: left;
+  }
+  .portfolio-text {
+    text-align: left;
+  }
+}
